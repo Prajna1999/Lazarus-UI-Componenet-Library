@@ -152,3 +152,51 @@ nav{
 .right-nav li a:hover::before{
     opacity: 1;
 }
+
+.doc-container{
+    width: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    padding: 0 1rem;
+}
+.side-bar{
+    margin-right: 1rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 240px;
+}
+.list-topic{
+    /* margin: 50px; */
+    padding:30px;
+    font-weight: 500;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 0.5rem;
+    position: relative;
+    left: 50px;
+    top: 5rem;
+}
+.list-topic a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.list-subtopic li{
+    list-style-type: none;
+    position: relative;
+    padding: 15px;
+    top: 90px;
+    left: 70px;
+    
+}
+.list-subtopic li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+.list-subtopic .active{
+    color: var(--active-color);
+    font-weight: 700;
+}
