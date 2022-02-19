@@ -27,7 +27,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
 }
 body.dark{
-   
+    background-color: black;
     --primary-color:#6366F1;
     --default-color: #172b4D;
     --secondary-color:#f3f4f6;
@@ -41,7 +41,7 @@ body.dark{
     --active-hover: #058ce0;
     --off-white: #f6f9fc;
     --active-color:#1ea7fd;
-    --text-color:#333;
+    --text-color:#f6f9fc;
 }
 
 
@@ -96,7 +96,7 @@ nav{
     font-size: 0.9rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    color: rgb(90, 90, 90);
+    color: var(--text-color);
     
 }
 .dark-light i.sun{
@@ -107,6 +107,7 @@ nav{
 .dark-light.active i.sun{
     opacity: 1;
     pointer-events: auto;
+    color: var(--text-color);
 }
 .dark-light.active i.moon{
     opacity: 0;
@@ -130,7 +131,7 @@ nav{
     top: 0;
     text-decoration: none;
     font-size: 1.0rem;
-    color: rgb(90,90,90);
+    color: var(--text-color);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -140,7 +141,7 @@ nav{
     position: absolute;
     height: 6px;
     width: 6px;
-    background-color: rgb(90, 90, 90);
+    background-color: var(--text-color);
     border-radius: 50%;
     left: 50%;
     transform: translateX(-50%);
