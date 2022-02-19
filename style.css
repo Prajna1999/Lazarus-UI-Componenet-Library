@@ -47,14 +47,15 @@ body.dark{
 
 
 .container{
-    position:fixed;
+    /* position:fixed; */
+
     top: 0;
     left: 0;
     right: 0;
     bottom: auto;
     width: 100%;
-    min-height: 100vh;
-    height: max-content;
+    /* min-height: 100vh; */
+    /* height: max-content; */
     margin:auto;
     display: block;
    
@@ -63,28 +64,30 @@ body.dark{
 .doc-container{
     width: 100%;
     display: flex;
-    margin: 50px auto 0;
+    margin-top:20px;
     padding: 0 1rem;
 }
+/* .doc-container{
+    width: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    padding: 0 1rem;
+} */
 .doc-content{  
 
    min-width: 0;
-   margin: 6rem auto 0;
+   margin: 1rem auto 0;
    max-width: 800px;
    flex: 1 1 0%;
 }
 
 nav{
     
-    
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 2.5rem 1rem;
     width: 90%;
-   
-    
-   
 }
 .left-nav a{
     text-decoration: none;
@@ -138,6 +141,7 @@ nav{
 .right-nav li{
     list-style-type: none;
     padding: 0.5rem;
+
    
 }
 .right-nav li a{
@@ -167,12 +171,7 @@ nav{
     opacity: 1;
 }
 
-.doc-container{
-    width: 100%;
-    margin: 50px auto 0;
-    display: flex;
-    padding: 0 1rem;
-}
+
 .content-title{
     color: var(--text-color);
     font-size: 2rem;
@@ -207,7 +206,9 @@ nav{
     margin-bottom: 0;
 } */
 .side-bar{
+    margin-top:-5rem;
     margin-right: 1rem;
+    
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 40px;
