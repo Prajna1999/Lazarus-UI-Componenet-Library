@@ -25,6 +25,7 @@ body{
     min-height: 100vh;
     height: max-content;
     font-family: "Nunito Sans", sans-serif;
+    color: var(--text-color);
 }
 body.dark{
     background-color: black;
@@ -163,7 +164,7 @@ nav{
     margin-right: 1rem;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 240px;
+    flex-basis: 40px;
 }
 .list-topic{
     /* margin: 50px; */
@@ -196,7 +197,58 @@ nav{
     font-size: 13px;
     transition: all 0.3s ease;
 }
+.list-subtopic li a:hover{
+    color: var(--active-color);
+}
+.list-subtopic li a:active{
+    color: var(--active-color);
+    font-weight: 700;
+
+}
 .list-subtopic .active{
     color: var(--active-color);
     font-weight: 700;
+}
+.doc-content{
+    display: block;
+    max-width: 800px;
+    flex: 1 1 0%;
+    margin: 0px auto;
+    min-width: 0;
+   
+   
+}
+.content-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    top: 12%;
+    color: var(--text-color);
+}
+.content-subtitle{
+    position: relative;
+    top: 17%;
+    line-height: 27px;
+    max-width: 100%;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.content-head{
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    top: 20%;
+    color: var(--text-color);
+}
+.content-subtitle2{
+    position: relative;
+    top: 24%;
+    line-height: 27px;
+    max-width: 100%;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d9d9d9;
+
 }
