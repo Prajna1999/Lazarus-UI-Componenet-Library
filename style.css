@@ -238,22 +238,36 @@ nav{
     
 }
 .list-subtopic li a{
+    position: relative;
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
     font-size: 13px;
+    /* transition: all 0.3s ease; */
+}
+
+.list-subtopic li a::before{
+    position:absolute;
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -6px;
+    opacity: 0;
     transition: all 0.3s ease;
-}
-.list-subtopic li a:hover{
-    color: var(--active-color);
-}
-.list-subtopic li a:active{
-    color: var(--active-color);
-    font-weight: 700;
 
 }
-.list-subtopic .active{
-    color: var(--active-color);
+
+.list-subtopic li a:hover::before{
+    /* color: var(--active-color); */
+    opacity: 1;
+}
+.list-subtopic li a:active{
+    
     font-weight: 700;
+
 }
 
