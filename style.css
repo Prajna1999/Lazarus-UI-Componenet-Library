@@ -60,6 +60,19 @@ body.dark{
    
     
 }
+.doc-container{
+    width: 100%;
+    display: flex;
+    margin: 50px auto 0;
+    padding: 0 1rem;
+}
+.doc-content{  
+
+   min-width: 0;
+   margin: 6rem auto 0;
+   max-width: 800px;
+   flex: 1 1 0%;
+}
 
 nav{
     
@@ -160,6 +173,39 @@ nav{
     display: flex;
     padding: 0 1rem;
 }
+.content-title{
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.content-subtitle{
+    line-height: 27px;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.content-head{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.divider{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 1px;
+    background-color: #dadadaf3;
+}
+.example-code{
+    height: max-content;
+    margin-bottom: 3rem;
+}
+/* .intro-code{
+    margin-bottom: 0;
+} */
 .side-bar{
     margin-right: 1rem;
     flex-grow: 0;
@@ -209,46 +255,4 @@ nav{
     color: var(--active-color);
     font-weight: 700;
 }
-.doc-content{
-    display: block;
-    max-width: 800px;
-    flex: 1 1 0%;
-    margin: 0px auto;
-    min-width: 0;
-   
-   
-}
-.content-title{
-    font-size: 1.5rem;
-    font-weight: 800;
-    position: relative;
-    top: 12%;
-    color: var(--text-color);
-}
-.content-subtitle{
-    position: relative;
-    top: 17%;
-    line-height: 27px;
-    max-width: 100%;
-    margin-top: -5px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #d9d9d9;
 
-}
-.content-head{
-    font-size: 1.5rem;
-    font-weight: 800;
-    position: relative;
-    top: 20%;
-    color: var(--text-color);
-}
-.content-subtitle2{
-    position: relative;
-    top: 24%;
-    line-height: 27px;
-    max-width: 100%;
-    margin-top: -5px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #d9d9d9;
-
-}
