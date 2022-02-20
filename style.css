@@ -271,3 +271,53 @@ nav{
 
 }
 
+/* Example-div */
+.example-div{
+    width: 100%;
+    height: 100px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: pink;
+    color: black;
+    min-width: 100px;
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all0.3s ease-in-out;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    /* width: 100%; */
+    padding-bottom: 2rem;
+    font-weight: 600;
+    justify-content: space-between;
+    
+}
+.prev-comp ,
+.next-comp {
+    display: flex;
+    align-items: center;
+
+    
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.prev-comp i, 
+.next-comp i{
+    font-size: 0.8rem;
+    padding-left: 2px;
+}
+.prev-comp a,
+.next-comp a{
+    text-decoration: none;
+    color: var(--text-color);
+}
