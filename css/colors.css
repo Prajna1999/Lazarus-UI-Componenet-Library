@@ -1,0 +1,7 @@
+.color-palette{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    background: red;
+    width: 100%;
+}
