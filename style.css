@@ -246,6 +246,7 @@ nav{
     /* transition: all 0.3s ease; */
 }
 
+
 .list-subtopic li a::before{
     position:absolute;
     content: "";
@@ -298,7 +299,7 @@ footer{
     display: flex;
     /* width: 100%; */
     padding-bottom: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     justify-content: space-between;
     
 }
@@ -313,8 +314,8 @@ footer{
 }
 .prev-comp i, 
 .next-comp i{
-    font-size: 0.8rem;
-    padding-left: 2px;
+    font-size: 0.7rem;
+    padding:0 2px;
 }
 .prev-comp a,
 .next-comp a{

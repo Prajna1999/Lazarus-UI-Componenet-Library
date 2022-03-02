@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
 .color-palette{
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +17,7 @@
     padding: 0.5rem;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 0.8rem;
 }
 .default{
     background: var(--default-color);
