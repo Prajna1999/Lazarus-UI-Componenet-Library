@@ -273,17 +273,7 @@ nav{
 }
 
 /* Example-div */
-.example-div{
-    width: 100%;
-    height: 100px;
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-}
+
 .btn{
     background-color: pink;
     color: black;
