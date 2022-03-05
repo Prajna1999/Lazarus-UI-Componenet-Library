@@ -22,5 +22,5 @@
     height: 50px;
 }
 .avatar.square{
-    
+    border-radius: 4px;
 }

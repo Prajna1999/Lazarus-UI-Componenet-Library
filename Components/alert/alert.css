@@ -1,0 +1,39 @@
+.alert{
+    width: 100%;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    opacity: 0.9;
+    margin: 0.5rem 0;
+}
+.alert.error{
+    background-color: var(--danger-color);
+}
+.alert.success{
+    background-color:var(--success-color);
+}
+.alert.warning{
+    background-color:var(--warning-color);
+}
+.alert.variant-primary{
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.alert.variant-error{
+    background-color: white;
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+}
+.alert.variant-success{
+    background-color: white;
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+}
+.alert.variant-warning{
+    background-color: white;
+    border: 1px solid var(--warning-color);
+    color: var(--warning-color);
+}
