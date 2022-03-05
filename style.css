@@ -275,7 +275,32 @@ nav{
 }
 
 /* Example-div */
-
+.example-div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100%;
+    border-radius: 6px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0,0.02) 0px 1px 3px 0px,
+                rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: #F5F7F9;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: var(--text-color2);
+    min-height: 100px;
+    
+    
+}
+/* example-code */
+.example-code{
+    margin-top: 40px;
+    width: 100%;
+    min-height: 100px;
+    background-color:black;
+    color:var(--text-color);
+    border-radius: 6px;
+}
 .btn{
     background-color: pink;
     color: black;

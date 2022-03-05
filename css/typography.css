@@ -25,11 +25,3 @@
     margin-top: 10px;
    
 }
-.example-code{
-    margin-top: 40px;
-    width: 100%;
-    min-height: 200px;
-    background-color:black;
-    color:var(--text-color);
-    border-radius: 6px;
-}
