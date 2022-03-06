@@ -24,3 +24,22 @@
      font-size:2rem;
      margin: 10px;
   }
+  .badge .number{
+      position:absolute;
+      width: 20px;
+      height: 20px;
+      font-size: 0.5rem;
+      text-align: center;
+      right: 1px;
+      top: 1px;
+      color: white;
+      font-weight: 700;
+  }
+  .badge .cart{
+      background-color: var(--primary-color);
+  }
+  .number, .cart{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
