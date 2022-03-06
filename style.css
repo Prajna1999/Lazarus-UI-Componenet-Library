@@ -303,13 +303,13 @@ nav{
 }
 .btn{
     background-color: pink;
-    color: black;
+    color: white;
     min-width: 100px;
     font-weight: 600;
     padding: 0.8rem 1rem;
     border: none;
     cursor: pointer;
-    transition: all0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     margin: 10px;
 }
 footer{
