@@ -1,0 +1,22 @@
+.badge {
+    position: relative;
+    width: max-content;
+
+  }
+
+.badge>div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    position: absolute;
+    border: 2px solid #eee;
+    right: 15px;
+    top: 27px;
+  }
+  .badge .offline{
+      background-color:grey;
+  }
+  .badge .dnd{
+      background-color: var(--danger-color);
+  }
