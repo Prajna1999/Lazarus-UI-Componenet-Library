@@ -20,3 +20,7 @@
   .badge .dnd{
       background-color: var(--danger-color);
   }
+  .example-div i{
+     font-size:2rem;
+     margin: 10px;
+  }
