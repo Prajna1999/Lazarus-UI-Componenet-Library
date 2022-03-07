@@ -3,7 +3,7 @@
     height:max-content;
     border-radius: 2px;
     background-color:white;
-    padding:10px 20px;
+    /* padding:10px 20px; */
     margin:10px;
     box-shadow: 0 2.8px 2.2px rgba(0,0,0,0.034),
                 0 6.7px 5.3px rgba(0,0,0,0.048),
@@ -12,10 +12,14 @@
                 0 41.8px 33.4px rgba(0,0,0,0.086),
                 0 100px 80px rgba(0,0,0,0.12);
   }
+  .m1{
+    
+    padding: 10px 20px;
+  }
   .card-title{
     font-size:2rem;
     font-weight:600;
-    margin-bottom:20px;
+    
   }
 
 .card-image{
@@ -23,5 +27,13 @@
     height: auto;
     background-size:cover;
     background-repeat:no-repeat;
-    /* background: url(https://images.unsplash.com/photo-1610568781018-995405522539?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJhdG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80); */
+    border-radius: 2px ;
   }
+.header-profile{
+  padding: 5px;
+}
+ .header-profile span{
+    position: relative;
+    bottom:15px;
+    
+  } 
