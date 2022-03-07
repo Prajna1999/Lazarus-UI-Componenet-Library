@@ -68,3 +68,12 @@
     background-color: var(--success-color);
     color:white;
 }
+.btn.btn-link{
+    background-color: var(--active-color);
+}
+.btn.btn-link:hover{
+    background-color:var(--primary-hover);
+}
+.btn.btn-link i{
+    margin-right: 4px;
+}
