@@ -16,6 +16,9 @@
     
     padding: 10px 20px;
   }
+  .m2{
+    margin: 10px 0;
+  }
   .card-title{
     font-size:2rem;
     font-weight:600;
@@ -64,6 +67,34 @@
 .card-badge:hover{
   background-color: var(--primary-hover);
 }
+.brand-title{
+  margin-top: -20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.card-text{
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+.card-price{
+  font-size: 0.8rem;
+  
+}
+.card-price span{
+  padding-right:2px;
+}
+.card-price span:last-child{
+  
+  color: green;
+}
+.card-price span:nth-child(1){
+  font-weight: 700;
+}
+.card-price span:nth-child(2){
+  text-decoration: line-through;
+  text-decoration-thickness: auto;
+}
+
 .header-profile{
   padding: 5px;
 }
