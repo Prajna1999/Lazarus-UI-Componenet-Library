@@ -28,7 +28,42 @@
     background-size:cover;
     background-repeat:no-repeat;
     border-radius: 2px ;
+    position: relative;
   }
+.card-badge{
+  position: absolute;
+  top:30px;
+  left: -1px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 5px 10px;
+  transition: 0.3s all ease-in-out;
+}
+.ecom{
+  width: 230px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.ico i{
+  position: absolute;
+  color: var(--primary-color);
+  cursor: pointer;
+  top: 30px;
+  right: 10px;
+ 
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+}
+.ico i:hover{
+  color:var(--primary-hover) ;
+  
+}
+.card-badge:hover{
+  background-color: var(--primary-hover);
+}
 .header-profile{
   padding: 5px;
 }
@@ -36,4 +71,5 @@
     position: relative;
     bottom:15px;
     
-  } 
+} 
+
