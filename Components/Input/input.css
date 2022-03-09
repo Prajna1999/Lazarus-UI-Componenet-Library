@@ -32,3 +32,12 @@ input[type="text"]:focus{
 .input-group.err input{
     border-color: var(--danger-hover);
 } 
+.radio, .checkbox{
+    padding: 10px;
+}
+.radio label, .checkbox label{
+    font-size: 0.8rem;
+}
+.radio.disabled, .checkbox.unchecked{
+    opacity: 0.6;
+}
