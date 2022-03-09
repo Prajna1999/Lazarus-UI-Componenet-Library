@@ -25,9 +25,10 @@ input[type="text"]{
 input[type="text"]:focus{
     border-color: var(--active-color);
 }
-.input-group input[type="text"]:nth-child(2){
-    border-color: var(--danger-hover);
-}
-.input-group.err{
+
+.input-group.err {
     color: var(--danger-hover);
 }
+.input-group.err input{
+    border-color: var(--danger-hover);
+} 
