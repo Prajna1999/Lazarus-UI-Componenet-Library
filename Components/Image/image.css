@@ -12,3 +12,8 @@
     border-radius: 50%;
     border: 2px solid white;
 }
+.full-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

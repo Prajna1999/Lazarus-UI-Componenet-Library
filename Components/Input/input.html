@@ -6,13 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/Components/Image/image.css" >
-    <link rel="stylesheet" href="/Components/Card/card.css">
-    <link rel="stylesheet" href="/Components/avatar/avatar.css">
+    <link rel="stylesheet" href="/Components/Input/input.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Lazarus UI: Image</title>
+    <title>Lazarus UI: Input</title>
 </head>
 
 <body>
@@ -90,7 +88,7 @@
 
         <div class="doc-content">
             <div class="content-title">
-                Responsive Image
+                Inputs
             </div>
             <div class="content-subtitle">
                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, debitis ad rem eius recusandae placeat eveniet obcaecati, qui asperiores eum aspernatur! Nisi, sunt beatae laborum ad vel dicta magni placeat, quis dolorum consequatur at eius exercitationem laudantium excepturi autem sint.
@@ -100,7 +98,7 @@
 
             <div class="divider"></div>
 
-            <div class="content-head">Square Image</div>
+            <div class="content-head">Label Inputs</div>
             <div class="content-subtitle">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, aliquid!
                     
@@ -108,11 +106,20 @@
                 </p> 
             </div>
             
-            <div class="example-div">
-                <img src="https://images.unsplash.com/photo-1505751104546-4b63c93054b1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="square-image" alt="">
-
-                <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="" class="square-image">
-
+            <div class="example-div alert-box">
+                
+                    <div class="input-group">
+                        <label >Username*</label>
+                        <input type="text"></input>
+                    </div>
+                    <div class="input-group err">
+                        <label>Password*</label>
+                        <input type="text"></input>
+                        <div class="error-message">
+                            "Wrong Password, Try Again."
+                        </div>
+                </div>
+               
                   
               
             </div>
@@ -123,15 +130,13 @@
                 
             </div>
             <div class="content-head">
-               Round Image
+               Radio
             </div>
             <div class="content-subtitle">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, quia?
             </div>
             <div class="example-div">
-                <img src="https://images.unsplash.com/photo-1505751104546-4b63c93054b1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="round-image" alt="">
-
-                <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="" class="round-image">
+            
                   
                 
             </div>
@@ -158,7 +163,7 @@
             <div class="divider"></div>
             
                 <div class="content-head">
-                    Full Width Image
+                    Checkbox
                 </div>
                     <div class="content-subtitle">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi!
@@ -167,7 +172,8 @@
                         <span style="color: var(--primary-color);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, incidunt?</span>
                     </div>
                     <div class="example-div">
-                          <img src="https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="" class="full-image">
+                     
+                        
                     </div>
                     <div class="example-code">
 
