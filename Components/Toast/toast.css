@@ -1,0 +1,10 @@
+.toast{
+    width: 250px;
+    max-width: max-content;
+    background-color: white;
+    padding: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid var(--success-color);
+    border-radius: 4px;
+}
