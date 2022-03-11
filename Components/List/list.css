@@ -1,0 +1,35 @@
+.list{
+    background-color: white;
+    padding: 0.5rem 0;
+    margin: 10px;
+    width: 240px;
+    max-width: 95%;
+}
+.list li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 0.7rem 1.1rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.list-title{
+    padding: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid #d9d9d9;
+    
+}
+.list .collapsable{
+    padding: 0.7rem 1.1rem 0;
+}
+.collapsable>div{
+    padding-bottom: 0.7rem;
+    transition: all 0.3s ease-in-out;
+}
+.check-title{
+    font-weight: 600;
+    margin: 15px 0;
+    border: none;
+    padding: 0 1rem;
+    font-size: 13px;
+}
